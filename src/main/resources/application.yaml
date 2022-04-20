@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    min-response-size: 2048
+    mime-types: application/json
+
+spring:
+  jackson:
+    deserialization:
+      accept-single-value-as-array: true
